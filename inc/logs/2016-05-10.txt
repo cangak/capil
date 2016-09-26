@@ -1,0 +1,16 @@
+Time : 12:24:26
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'mk.NM_KAB' in 'field list'
+Raw SQL : select   u.`username`,
+  mk.`NM_KAB`,
+  mg.`group` ,
+  mu.`NIP_USER`,
+  mu.`NM_USER`,
+  mu.`JABAT_USER`
+from
+  user u
+  left join satker mk
+    on (mk.`id` = u.`satker`)
+  left join m_group mg
+    on (mg.`id` = u.`level`)
+  left join m_user mu on (mu.`USER_ID`=u.`m_user_id`)
+    where username= 'kasir'

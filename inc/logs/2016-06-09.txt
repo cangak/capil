@@ -1,0 +1,27 @@
+Time : 11:06:13
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'NM_KGIAT_B' in 'field list'
+Raw SQL : SELECT NM_KGIAT_B FROM m_kegiatan_b WHERE ID_KGIAT_B='2'
+
+Time : 11:06:02
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'NM_KGIAT_B' in 'field list'
+Raw SQL : SELECT NM_KGIAT_B FROM m_kegiatan_a WHERE ID_KGIAT_B='2'
+
+Time : 11:04:52
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ID_KGIAT_B' in 'where clause'
+Raw SQL : SELECT NM_KGIAT_A FROM m_kegiatan_a WHERE ID_KGIAT_B='1'
+
+Time : 11:03:52
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ID_KGIAT_B' in 'where clause'
+Raw SQL : SELECT NM_KGIAT_A FROM m_kegiatan_a WHERE ID_KGIAT_B='1'
+
+Time : 10:49:10
+SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect date value: '09/06/2016' for column 'TGL' at row 1
+Raw SQL : insert into t_reg_byr (ID_REG,TGL,INFO,N_BAYAR,ID_USER) value ('0003.REG.06.16','09/06/2016','asdasd','500000','yopie')
+
+Time : 10:47:44
+SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect date value: '09/06/2016' for column 'TGL' at row 1
+Raw SQL : insert into t_reg_byr (ID_REG,TGL,INFO,N_BAYAR,ID_USER) value ('0003.REG.06.16','09/06/2016','aaa','500000','yopie')
+
+Time : 10:43:00
+SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect date value: '09/06/2016' for column 'TGL' at row 1
+Raw SQL : insert into t_reg_byr (ID_REG,TGL,INFO,N_BAYAR,ID_USER) value ('0003.REG.06.16','09/06/2016','','500000','yopie')

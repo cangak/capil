@@ -1,0 +1,20 @@
+Time : 19:04:31
+SQLSTATE[HY000] [2019] Unknown character set
+
+Time : 19:04:25
+SQLSTATE[HY000] [2019] Unknown character set
+
+Time : 19:03:51
+SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+
+Time : 19:03:09
+SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+
+Time : 19:01:24
+SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+
+Time : 19:00:54
+SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+
+Time : 19:00:26
+SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)

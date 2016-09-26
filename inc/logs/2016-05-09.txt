@@ -1,0 +1,75 @@
+Time : 20:25:42
+SQLSTATE[22007]: Invalid datetime format: 1366 Incorrect integer value: '' for column 'ID_KGIAT_C' at row 1
+Raw SQL : INSERT INTO t_reg (ID_REG,TGL_REG,NM_LAPOR,ALM_LAPOR,ID_KEC,NM_REG,ALM_REG,JK_REG,ID_KGIAT,ID_KGIAT_A,ID_KGIAT_B,ID_KGIAT_C,ID_RETRI,NO_AKTA,TGL_AKTA,KD_SKS,INFO_RUBAH,DATA_LAMA,DATA_BARU,INFO,N_RETRI,NIK,KK,TGL_PERISTIWA,TGL_PRED_SELESAI,TELP_LAPOR,IS_LUNAS,ID_USER,satker) VALUES (:ID_REG,:TGL_REG,:NM_LAPOR,:ALM_LAPOR,:ID_KEC,:NM_REG,:ALM_REG,:JK_REG,:ID_KGIAT,:ID_KGIAT_A,:ID_KGIAT_B,:ID_KGIAT_C,:ID_RETRI,:NO_AKTA,:TGL_AKTA,:KD_SKS,:INFO_RUBAH,:DATA_LAMA,:DATA_BARU,:INFO,:N_RETRI,:NIK,:KK,:TGL_PERISTIWA,:TGL_PRED_SELESAI,:TELP_LAPOR,:IS_LUNAS,:ID_USER,:satker)
+
+Time : 20:25:15
+SQLSTATE[22007]: Invalid datetime format: 1366 Incorrect integer value: '' for column 'ID_KGIAT_C' at row 1
+Raw SQL : INSERT INTO t_reg (ID_REG,TGL_REG,NM_LAPOR,ALM_LAPOR,ID_KEC,NM_REG,ALM_REG,JK_REG,ID_KGIAT,ID_KGIAT_A,ID_KGIAT_B,ID_KGIAT_C,ID_RETRI,NO_AKTA,TGL_AKTA,KD_SKS,INFO_RUBAH,DATA_LAMA,DATA_BARU,INFO,N_RETRI,NIK,KK,TGL_PERISTIWA,TGL_PRED_SELESAI,TELP_LAPOR,IS_LUNAS,ID_USER,satker) VALUES (:ID_REG,:TGL_REG,:NM_LAPOR,:ALM_LAPOR,:ID_KEC,:NM_REG,:ALM_REG,:JK_REG,:ID_KGIAT,:ID_KGIAT_A,:ID_KGIAT_B,:ID_KGIAT_C,:ID_RETRI,:NO_AKTA,:TGL_AKTA,:KD_SKS,:INFO_RUBAH,:DATA_LAMA,:DATA_BARU,:INFO,:N_RETRI,:NIK,:KK,:TGL_PERISTIWA,:TGL_PRED_SELESAI,:TELP_LAPOR,:IS_LUNAS,:ID_USER,:satker)
+
+Time : 20:24:31
+SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'ID_REG'
+Raw SQL : INSERT INTO t_reg (ID_REG,TGL_REG,NM_LAPOR,ALM_LAPOR,ID_KEC,NM_REG,ALM_REG,JK_REG,ID_KGIAT,ID_KGIAT_A,ID_KGIAT_B,ID_KGIAT_C,ID_RETRI,NO_AKTA,TGL_AKTA,KD_SKS,INFO_RUBAH,DATA_LAMA,DATA_BARU,INFO,N_RETRI,NIK,KK,TGL_PERISTIWA,TGL_PRED_SELESAI,TELP_LAPOR,IS_LUNAS,ID_USER,satker) VALUES (:ID_REG,:TGL_REG,:NM_LAPOR,:ALM_LAPOR,:ID_KEC,:NM_REG,:ALM_REG,:JK_REG,:ID_KGIAT,:ID_KGIAT_A,:ID_KGIAT_B,:ID_KGIAT_C,:ID_RETRI,:NO_AKTA,:TGL_AKTA,:KD_SKS,:INFO_RUBAH,:DATA_LAMA,:DATA_BARU,:INFO,:N_RETRI,:NIK,:KK,:TGL_PERISTIWA,:TGL_PRED_SELESAI,:TELP_LAPOR,:IS_LUNAS,:ID_USER,:satker)
+
+Time : 19:55:45
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ID_USER' in 'where clause'
+Raw SQL : SELECT * FROM user WHERE ID_USER = :ID_USER
+
+Time : 19:54:31
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ID_USER' in 'where clause'
+Raw SQL : SELECT * FROM user WHERE ID_USER = :ID_USER
+
+Time : 19:52:30
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ID_USER' in 'where clause'
+Raw SQL : SELECT * FROM user WHERE ID_USER = :ID_USER
+
+Time : 19:31:14
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ID_USER' in 'where clause'
+Raw SQL : SELECT * FROM user WHERE ID_USER = :ID_USER
+
+Time : 19:31:10
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ID_USER' in 'where clause'
+Raw SQL : SELECT * FROM user WHERE ID_USER = :ID_USER
+
+Time : 19:19:34
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'fo_2016.t_reg_byr' doesn't exist
+Raw SQL : insert into t_reg_byr (ID_REG,TGL,INFO,N_BAYAR,ID_USER) value ('0005.KK.05.16','09/05/2016','asdasd','10000','yopie')
+
+Time : 19:19:04
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'fo_2016.t_reg_byr' doesn't exist
+Raw SQL : insert into t_reg_byr (ID_REG,TGL,INFO,N_BAYAR,ID_USER) value ('0005.KK.05.16','09/05/2016','asdasd','10000','yopie')
+
+Time : 19:18:54
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'fo_2016.t_reg_byr' doesn't exist
+Raw SQL : insert into t_reg_byr (ID_REG,TGL,INFO,N_BAYAR,ID_USER) value ('0005.KK.05.16','09/05/2016','lolololo','10000','yopie')
+
+Time : 15:10:31
+SQLSTATE[22007]: Invalid datetime format: 1366 Incorrect integer value: '' for column 'ID_KGIAT_C' at row 1
+Raw SQL : INSERT INTO t_reg (ID_REG,TGL_REG,NM_LAPOR,ALM_LAPOR,ID_KEC,NM_REG,ALM_REG,JK_REG,ID_KGIAT,ID_KGIAT_A,ID_KGIAT_B,ID_KGIAT_C,ID_RETRI,NO_AKTA,TGL_AKTA,KD_SKS,INFO_RUBAH,DATA_LAMA,DATA_BARU,INFO,N_RETRI,NIK,KK,TGL_PERISTIWA,TGL_PRED_SELESAI,TELP_LAPOR,IS_LUNAS,ID_USER,satker) VALUES (:ID_REG,:TGL_REG,:NM_LAPOR,:ALM_LAPOR,:ID_KEC,:NM_REG,:ALM_REG,:JK_REG,:ID_KGIAT,:ID_KGIAT_A,:ID_KGIAT_B,:ID_KGIAT_C,:ID_RETRI,:NO_AKTA,:TGL_AKTA,:KD_SKS,:INFO_RUBAH,:DATA_LAMA,:DATA_BARU,:INFO,:N_RETRI,:NIK,:KK,:TGL_PERISTIWA,:TGL_PRED_SELESAI,:TELP_LAPOR,:IS_LUNAS,:ID_USER,:satker)
+
+Time : 13:57:48
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ID_USER' in 'where clause'
+Raw SQL : SELECT * FROM user WHERE ID_USER = :ID_USER
+
+Time : 13:55:55
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ID_USER' in 'where clause'
+Raw SQL : SELECT * FROM user WHERE ID_USER = :ID_USER
+
+Time : 13:55:45
+SQLSTATE[01000]: Warning: 1265 Data truncated for column 'status' at row 1
+Raw SQL : update t_reg set status='pending' where ID_REG='0003.KK.05.16'
+
+Time : 13:55:17
+SQLSTATE[01000]: Warning: 1265 Data truncated for column 'status' at row 1
+Raw SQL : update t_reg set status='pending' where ID_REG='0003.KK.05.16'
+
+Time : 13:55:03
+SQLSTATE[01000]: Warning: 1265 Data truncated for column 'status' at row 1
+Raw SQL : update t_reg set status='pending' where ID_REG='0003.KK.05.16'
+
+Time : 13:53:49
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ID_USER' in 'where clause'
+Raw SQL : SELECT * FROM user WHERE ID_USER = :ID_USER
+
+Time : 13:48:08
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ID_USER' in 'where clause'
+Raw SQL : SELECT * FROM user WHERE ID_USER = :ID_USER
