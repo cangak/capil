@@ -6,7 +6,7 @@ if ($session->wes_entek()) {
     $session->end();
     header('location:/login.php');
 } else {
-    $conn = oci_connect('siakoff', 'ora_off_05', '192.10.10.200/SIAKDB');
+    $conn = oci_connect('', '', '');
     if (!$conn) {
         $e = oci_error();
         trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);
